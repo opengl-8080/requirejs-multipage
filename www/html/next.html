@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Next Page</h1>
+
+    <p id="result"></p>
+
+    <a href="index.html">index page</a>
+
+    <script src="../js/lib/require.js"></script>
+    <script>
+    require(['../js/common'], function() {
+      require(['app/next']);
+    });
+    </script>
+  </body>
+</html>
